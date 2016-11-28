@@ -1,0 +1,28 @@
+Distributed File Store System Description Document
+
+¢ñ Operation Environment
+1)	Five Machines.
+2)	Windows 7 or upper operation system (have D Disk).
+3)	Eclipse with JSE1.7.
+
+¢ò Configuration
+  1) Problem conclude Server (1-4), Monitor, Client.
+  2) Use Eclipse to run program.
+  3) Arrange 4 Servers to different 4 machines. Arrange 1 machine to run Monitor
+  4) Client can be arranged on any machine.
+  5) Set Server¡¯s IP address to the IP of the machine running Monitor. 
+6)Set Client¡¯s IP as well.
+
+¢ó Operation
+1)	First Run Monitor program. 
+2)	Then run Server program.
+3)	Finally, run Client program.
+4)	In Client program console :
+A) Type Command ¡°upload#¡±+fileName (you cloud just only put your file in the project root path to upload)(e.g. download#test.txt). 
+B) Type Command ¡°getfilelist¡± to get the file from distributed file store system.
+C) Type Command ¡°download#¡±+filename (e.g. download#test.txt) to download the file from file system, it will be stored in D:/download.
+D) Type Command ¡°exit¡± to quit the program. 
+
+NOTICE: THE OPERATION ORDER IS IMPORTANT, IF YOU MAKE IT WRONG, THE SYSTEM MAY RUN ABNORMALLY.
+
+Programming by group 10, ZhangWei, Wujiecheng, Lucaobo
